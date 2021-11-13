@@ -1,0 +1,9 @@
+.special-text{
+    color: goldenrod
+}
+
+.manage-event{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 5px gray;
+}

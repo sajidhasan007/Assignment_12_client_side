@@ -1,0 +1,38 @@
+.header-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.header-item{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    margin-right: 5px;
+    transition: background-color 1s, transform 2s;
+}
+.header-item:hover{
+    background-color: #FF2A7E;
+    color: black;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.header-item:active{
+    background-color: #FF2A7E;
+}
+.header-item:visited{
+    background-color: #FF2A7E;
+}
+
+
+.brand-logo{
+    height: 50px;
+    width: 100px;
+    transition: transform 2s;
+    border-radius: 10px;
+}
+.brand-logo:hover{
+    transform: rotate(-30deg) scale(1.1);
+    /* transform: scale(1.1); */
+}

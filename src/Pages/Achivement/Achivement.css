@@ -1,0 +1,24 @@
+.Achievement-item{
+    background-color: rgb(121, 77, 158);
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+
+}
+
+.text-color{
+    color: goldenrod;
+}
+.achievement-items{
+    margin: auto;
+}
+.achievement-custom{
+    background-image: url('https://sgp1.digitaloceanspaces.com/cosmosgroup/news/y8eC0WBzPEEVyKIGGjcM3zKIgirEYLTLvioF3GaP.jpeg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+}

@@ -1,0 +1,32 @@
+.add-services form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.add-services form input, textarea{
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.event-name{
+    color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    .add-services form input, textarea{
+        width: 100%;
+        
+    }
+    .add-services{
+        padding: 15px;
+    }
+  }
